@@ -1,7 +1,7 @@
 import { Bar, Doughnut, Line, Pie } from "react-chartjs-2";
 import React, { useEffect, useState } from "react";
 
-export default function Grafico() {
+export default function GraficoCircular() {
   const [barData, setBarData] = useState({
     labels: [
       "Trabajar",
@@ -50,6 +50,8 @@ export default function Grafico() {
   return (
     <div className="BarExample">
       <Doughnut data={barData} options={barOptions.options} />
+      <br />
+      <Bar data={barData} options={barOptions.options} />
     </div>
   );
 }

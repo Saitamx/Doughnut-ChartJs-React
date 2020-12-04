@@ -1,8 +1,7 @@
-import CalculadoraIMC from "./components/CalculadoraIMC";
-import Grafico from "./components/Grafico";
+import Actividad_9 from "./components/Actividad_9";
 
 function App() {
-  return <Grafico />
+  return <Actividad_9 />;
 }
 
 export default App;
